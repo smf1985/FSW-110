@@ -1,3 +1,3 @@
-let greeting = document.getElementById("idName");
-console.log("idName")
-Elements.innerHTML += "Hello World"
+let element = document.getElementById("idName");
+console.log(element)
+element.innerHTML += "Hello World";
