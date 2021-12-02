@@ -1,7 +1,7 @@
 //Must link a JS file to HTML file: see website.html file
 //Site must have a navbar with links
 const navbar = document.createElement("navbar");
-navbar.style.backgroundColor = "blue";
+navbar.style.backgroundColor = "white";
 navbar.style.float = "center";
 
 const a1 = document.createElement("a1");
