@@ -37,7 +37,7 @@ document.body.appendChild(h1);
 
 //Site must have a p tag
 const p1 = document.createElement("p");
-p1.textContent = "Hello Course 110, I hope you are enjoying my page! Which coding language is your favorite?";
+p1.textContent = "Hello, I hope you are enjoying my page. Which coding language do you use?";
 document.body.appendChild(p1);
 
 //Site must have a list
@@ -58,7 +58,7 @@ document.body.appendChild(ol);
 //site must have a footer
 const footer = document.createElement("footer");
 const p2 = document.createElement("p");
-p2.innerHTML = "Created by Shannon Ewing-Sudds for Course 110";
-p2.style.fontStyle = "italic";
+p2.innerHTML = "Created by Stephanie for Course 110";
+p2.style.fontStyle = "bold";
 footer.appendChild(p2);
 document.body.appendChild(footer);
