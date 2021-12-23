@@ -1,0 +1,61 @@
+You are going to learn some best practices with Git, specifically using branches. This is an important practice when 
+ collaborating with others, and is a general requirement in a working dev environment. It is also good practice even 
+ when working individually.
+
+Doing this is trickier than it may sound when it's your first time using Git. Whenever in doubt, ask an instructor or 
+ TA for help using Git so as to minimize your down-time.
+
+Steps:
+-Create a new local directory called “coffee_shop”. This will be your project folder and contain your git tracking 
+ (i.e. git init). 
+-Create a new remote github repository named: “coffee_shop”. Remember any time we are talking about “remote” in reference 
+ to github we are referring to “the cloud” or the actual github website — and by extension anything “local” is on your own
+ computer. Once this has been created the next step is to link it to your local folder like we had done originally in 
+ UNV-101T while initially setting up your BU repository for the entire program. 
+-Create a new branch from master to work on. It is common convention to create a new branch for EVERY new feature and you
+ should adopt this practice in your personal development (i.e. portfolio projects).
+-Once completed merge your working branches back into the master branch (You may have to do this several times considering
+ most parts of this website will require other parts to be finished to work on) -> remember to follow DRY principles and 
+ name your branches after what specific feature you are creating or working on.
+
+Instructions
+You are creating a “mock” online ordering system for a local coffee shop. Something that could very well be one of your 
+ first solo website you work on. Finding local businesses that need an updated online presence is a great place to start 
+ padding your portfolio through your job hunt while also keeping your skills sharp. You will create a single page website 
+ that keeps track of a person's order and displays the total price of that order. Each specific Item will have a set price
+ and a way to increment/decrement the amount of items purchased. The total price should then be injected directly into the 
+ HTML and displayed on your page (not an alert).
+
+Pricing Example
+The pricing must be clearly stated on this page in a menu format. ex)
+ Bagel: 3 Dollars
+ Tea: 7 Dollars
+ Coffee: 11 Dollars
+ Amount Of Item Purchased
+
+The amount of items purchased will be entered into their input fields. Each item type will have their own input field. 
+ Feel free to be creative and change the item type, pricing, or amount of items.
+
+Total Price
+This will be dynamic, depending on the items and prices in your order.
+
+Project Requirements
+The website must contain the following:
+-A list displaying each item by type. Each list item must:
+ Have item image.
+ Have item name.
+ Show price of that item.
+ Have an input box to enter the total bought of that type.
+-A total price at the bottom that adds sums the total cost of items purchased.
+-Must use JS for this math === no hard coded values!
+-A footer showing:
+ The shop’s email address.
+ The shop’s company website url.
+ The shop’s physical address.
+-A large title at the top of the page depicting the name of the shop.
+-The page must be responsive, meaning it looks great when shrunk down to the screen size of a smartphone. This will be 
+ the standard for all assignments moving forward in the program and all real life web applications.
+
+Refreshers on css grid and flexbox:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ (Links to an external site.)
+https://css-tricks.com/snippets/css/complete-guide-grid/
