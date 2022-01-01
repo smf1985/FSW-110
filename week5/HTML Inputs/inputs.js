@@ -13,3 +13,22 @@ Each element of the form should be given a name attribute so you can access the 
 There should also be a button at the end of the form to submit it. Upon pressing the button, an alert should pop up that 
  looks like this: 
 You should style your form to look good and be easily usable. */
+
+var form = document.myForm;
+var selectMenu = document.getElementById("options");
+
+form.addEventListener("submit", function() {
+    var checkbox = document.querySelectorAll('input[type = "checkbox"]:checked');
+    var languages = [];
+    for (var i = 0; i < checkbox.length; i++) {
+        languages.push(" " + checkbox[i].value);
+
+    }
+    alert(` 
+    First Name: ${form.first_name.value}
+    Last Name: ${form.last_name.value}
+    Age: ${form.age.value}
+    Is this your first JavaScript course: ${form.question.value}
+    How likely to reccomend: ${selectMenu.options[selectMenu.selectedIndex].value}
+    Other Languages: ${languages}`);
+});

@@ -1,0 +1,9 @@
+#flex-container {
+    border: 3px solid rgb(19, 0, 128);
+    color: cornflowerblue;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}

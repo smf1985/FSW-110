@@ -3,3 +3,16 @@
  and a button.
 -When the button is clicked, the inputs should be displayed in an “alert” window using the alert() method.  
 -After the alert is closed, the inputs should clear themselves out. */
+
+var yourName = document.getElementById("yourName");
+var yourCollege = document.getElementById("yourCollege");
+var yourLocation = document.getElementById("yourLocation");
+
+let myform = document.getElementById("myform");
+
+myform.addEventListener("submit", function() {
+    alert(` 
+    Your Name: ${yourName.value}
+    College: ${yourCollege.value}
+    Location: ${yourLocation.value} `);
+});
