@@ -22,7 +22,6 @@ form.addEventListener("submit", function() {
     var languages = [];
     for (var i = 0; i < checkbox.length; i++) {
         languages.push(" " + checkbox[i].value);
-
     }
     alert(` 
     First Name: ${form.first_name.value}
