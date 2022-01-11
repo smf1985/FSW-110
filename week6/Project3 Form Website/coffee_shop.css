@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+img {
+    width: 200px;
+    height: 200px;
+    padding-right: 25px;
+    margin-top: 25px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+body {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    background-color: #b80db870;
+    color: #0a0a0a;
+}
+
+button {
+    height: 25px;
+    margin-left: 5px;
+}
+
+footer {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+header>div {
+    width: 20vw;
+    background-color: #8b134b;
+    border-radius: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Pacifico', cursive;
+}
+
+@media only screen and (min-width: 850px) {
+    .cart-items {
+        display: flex;
+        width: 100%;
+    }
+}
