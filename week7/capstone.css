@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    background-color: #afffff;
+    font-family: 'Staatliches', cursive;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+}
+
+#user-input {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625em;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr auto auto 0.5fr;
+    gap: 0.313em;
+}
+
+h2 {
+    font-weight: bold;
+    align-self: center;
+    font-family: 'Staatliches', cursive;
+}
+
+.flex-box {
+    display: flex;
+    margin-left: 0px;
+    gap: 0.313em;
+}
+
+#submit {
+    width: fit-content;
+}
+
+header {
+    color: #131212;
+    font-family: 'Staatliches', cursive;
+}
+
+footer {
+    text-align: center;
+}
+
+#todo-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0.625em auto;
+    padding: 0;
+}
+
+ul button {
+    margin-left: 0.313em;
+}
+
+button {
+    background-color: #014b4b;
+    color: white;
+}
+
+.parentList {
+    margin-top: 1.25vh;
+    max-width: 100%;
+    word-wrap: break-word;
+    margin-bottom: 1.25vh;
+    border: 2px solid black;
+    box-shadow: 0px 8px 8px black;
+    padding: 0.313em;
+}
+
+Footer {
+    color: #0a0a0a;
+}
+
+
+/* Common Breakpoints
+Mobile: 360 x 720
+Tablet: 768 x 1024
+Laptop: 1366 x 768
+High-res laptop or desktop: 1920 x 1080 */
+
+@media only screen and (min-width: 48em) {
+    #user-input {
+        justify-content: center;
+        align-items: center;
+    }
+    #title,
+    #description,
+    #toDo {
+        width: 34.30em;
+    }
+}
+
+@media only screen and (min-width: 85em) {
+    .parentList {
+        width: 75%;
+        margin: .55em auto;
+    }
+}
